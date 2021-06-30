@@ -65,6 +65,10 @@ h4 {
   margin: 10px;
 }
 
+.btn:hover{
+  color: lime;
+}
+
 @media (max-width: 769px) {
   .content {
     width: 100%;

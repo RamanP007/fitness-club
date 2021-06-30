@@ -1,0 +1,95 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+
+/* 
+
+div h1 p {
+    text-align: center;
+}
+hr{
+    width: 70%;
+    color: black;
+}
+
+div h4{
+    font-size: 1.2em;
+
+}
+
+ */
+
+
+
+
+
+#name, #address, h4{
+    display: block;
+    padding: 2px;
+    margin: 15px;
+    width: 70%;
+}
+select, #city, #zip, #state, #phone, #age{
+    display: block;
+    padding: 2px;
+    margin: 15px;
+  
+}
+
+
+.btn{
+    padding-left: 20px;
+    position: relative;
+    left: 45%; 
+    
+}
+.btn a{
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: 0.3s;
+    background: rgb(252, 101, 0);
+    padding: 10px;
+   
+  }
+
+  .content {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(8, 8, 8, 0.18);
+    position: relative;
+    /* left: 25%; */
+    width: 60%;
+   
+   
+  }
+
+  form>h1,p{
+      text-align: center;
+      margin: 15px;
+  }
+
+  @media (max-width: 769px ) {
+    .content{
+      width: 100%;
+    }
+    .btn{
+        left: 0;
+    }
+  }
+  

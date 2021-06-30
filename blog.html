@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="CSS/utils.css">
+    <link rel="stylesheet" href="CSS/blog.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <nav id="navbar">
+            <a id="logo" href="/">Fit<span>ness</span></a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="/">Home</a></li>
+                <li><a class="active" href="blog.html">Blogs</a></li>
+                <li><a href="subscription.html">Subscription</a></li>
+                <!-- <li><a href="about.html">About Us</a></li> -->
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section1 class="subs">
+        <!-- <img src="CSS/img/home_img2.jpg" alt=""> -->
+        <div>
+            <h1>Subscribe to our blog</h1>
+            <hr>
+            
+            <input type="email" placeholder="Enter your Email" id="email">
+            <span class="btn"><a href="#">Subscribe</a> </span> 
+            
+        </div>
+    </section1>
+
+    <section2 id="sec2">
+
+        <h2>Our Latest Blogs</h2>
+        
+        <br>
+        <div class="cards">
+            <div class="card1">
+                <img src="CSS/img/card1.jpg" alt="">
+                <h3>This is the 1st blog</h3>
+                <br>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis distinctio temporibus ex
+                    minima consectetur odit, iusto reiciendis recusandae sint.
+                </p>
+                <span class="btn1"><a href="">Read More</a></span>
+            </div>
+            <div class="card1">
+                <img src="CSS/img/card2.jpg" alt="">
+                <h3>This is the 1st blog</h3>
+                <br>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis distinctio temporibus ex
+                    minima consectetur odit, iusto reiciendis recusandae sint.
+                </p>
+                <span class="btn1"><a href="">Read More</a></span>
+            </div>
+            <div class="card1">
+                <img src="CSS/img/card3.jpg" alt="">
+                <h3>This is the 1st blog</h3>
+                <br>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis distinctio temporibus ex
+                    minima consectetur odit, iusto reiciendis recusandae sint.
+                </p>
+                <span class="btn1"><a href="">Read More</a></span>
+            </div>
+            <div class="card1">
+                <img src="CSS/img/card1.jpg" alt="">
+                <h3>This is the 1st blog</h3>
+                <br>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis distinctio temporibus ex
+                    minima consectetur odit, iusto reiciendis recusandae sint.
+                </p>
+                <span class="btn1"><a href="">Read More</a></span>
+            </div>
+            <div class="card1">
+                <img src="CSS/img/card2.jpg" alt="">
+                <h3>This is the 1st blog</h3>
+                <br>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis distinctio temporibus ex
+                    minima consectetur odit, iusto reiciendis recusandae sint.
+                </p>
+                <span class="btn1"><a href="">Read More</a></span>
+            </div>
+            <div class="card1">
+                <img src="CSS/img/card3.jpg" alt="">
+                <h3>This is the 1st blog</h3>
+                <br>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis distinctio temporibus ex
+                    minima consectetur odit, iusto reiciendis recusandae sint.
+                </p>
+                <span class="btn1"><a href="">Read More</a></span>
+            </div>
+
+        </div>
+        
+        
+
+    </section2>
+    <!-- <footer>
+        <p>Copyright &copy; 2021 | Fitness.com</p>
+    </footer> -->
+
+
+
+
+
+    <script>
+        let menutoggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation');
+        menutoggle.onclick = function () {
+            menutoggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>

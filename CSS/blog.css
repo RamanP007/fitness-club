@@ -1,0 +1,155 @@
+h1 {
+  /* text-align: center; */
+  color: rgb(235, 180, 144);
+  font-size: 3em;
+}
+section1 {
+  background: url("img/home_img2.jpg");
+  height: 500px;
+  position: relative;
+  opacity: 0.9;
+
+  width: 100%;
+  display: block;
+  /* z-index: -1; */
+
+  background-size: cover;
+  text-align: center;
+  line-height: 70px;
+}
+section1 > div {
+  z-index: 1000;
+  position: relative;
+  top: 30%;
+}
+
+.btn > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+
+  background: rgb(252, 101, 0);
+  padding: 7px;
+  border-radius: 30px;
+}
+#email {
+  padding: 5px;
+  margin: 5px;
+}
+hr {
+  align-items: center;
+  width: 40%;
+  color: white;
+}
+
+#sec2 h2 {
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+.linebreak {
+  font-weight: bold;
+  color: black;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 3 auto;
+  grid-gap: 2rem; */
+  cursor: pointer;
+  justify-content: space-between;
+  line-height: 25px;
+}
+
+.card1 {
+  text-align: center;
+  max-width: 350px;
+  transition: 0.3s;
+  padding: 20px;
+  margin-bottom: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card1:hover {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card1 img {
+  height: auto;
+  width: 350px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.card1 img:hover {
+  transform: scale(1.05);
+}
+
+.card1 h3 {
+  font-size: 1.5em;
+}
+
+.btn1 {
+  /* background: orange;   */
+  padding: 5px;
+}
+.btn1 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  position: relative;
+  top: 10px;
+
+  background: rgb(252, 101, 0);
+  padding: 7px;
+  border-radius: 30px;
+}
+.btn1 a:hover {
+  font-size: 1.2em;
+}
+
+@media (max-width: 1160px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+  section1 {
+    background: url("img/home_img2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    line-height: 50px;
+  }
+  h1 {
+    /* text-align: center; */
+    color: white;
+    font-size: 2.5em;
+  }
+  section1 > div {
+    z-index: 1000;
+    position: relative;
+    top: 10%;
+  }
+}
+@media (max-width: 410px) {
+  .card1 {
+    text-align: center;
+    max-width: 350px;
+    transition: 0.3s;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: 0px;
+    
+  }
+  .card1 img {
+    width: 300px;
+    
+  }
+}

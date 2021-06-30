@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="CSS/utils.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    
+</head>
+
+<body>
+
+    <header id="header">
+        <nav id="navbar">
+
+            <a id="logo" href="/">Fit<span>ness</span></a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a class="active" href="/">Home</a></li>
+                <li><a href="/blog.html">Blogs</a></li>
+                <li><a href="subscription.html">Subscription</a></li>
+                <!-- <li><a href="about.html">About Us</a></li> -->
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section1 id="sec1">
+        <div id="para1">
+            <h3>Welcome to the Fitness Club</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste amet magni, labore id hic nostrum
+                explicabo recusandae ipsum dolore.</p><br>
+            <span class="btn"><a href="/subscription.html">Get Subscription</a> </span>
+        </div>
+
+
+    </section1>
+
+
+
+    <script>
+        let menutoggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation');
+        menutoggle.onclick = function(){
+            menutoggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+
+
+    
+</body>
+
+</html>
